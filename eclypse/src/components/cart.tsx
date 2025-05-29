@@ -15,7 +15,6 @@ export default function Cart(){
 
 
     let [saved,setSaved] = useState(false)
-    let [ordered,setOrdered] = useState(false)
 
     function handleCancelClearButton(){
         if(saved){
@@ -40,7 +39,7 @@ export default function Cart(){
             'total':quantity*7999+200
         }
         axios.post('http://localhost:3000/order',{'order':order})
-        .then((res)=>{if(res.data=='Order placed successfully'){setOrdered(true);toast.success('Order was Placed Successfully')}})
+        .then((res)=>{if(res.data=='Order placed successfully'){toast.success('Order was Placed Successfully')}})
         .catch((err)=>{toast.error(err.message)})
     }
 
