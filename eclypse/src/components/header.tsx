@@ -5,7 +5,7 @@ export default function Header(){
         <div className="flex justify-between borde border-whit pt-4 pl-4 text-xl w-[100%]">
             <div className="">
                 <Link to={'/'}>
-                    <img src="../../public/logo.jpg" alt="" height="73px" width="58px"/>
+                    <img src="/logo.jpg" alt="" height="73px" width="58px"/>
                 </Link>
             </div>
             <div className="flex gap-16 justify-center items-center">

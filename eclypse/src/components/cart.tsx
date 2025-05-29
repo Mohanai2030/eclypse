@@ -38,7 +38,7 @@ export default function Cart(){
             'item_name':'Silhoutte No.1 Vermilion',
             'total':quantity*7999+200
         }
-        axios.post('http://localhost:3000/order',{'order':order})
+        axios.post('https://eclypse-1-3ucr.onrender.com/order',{'order':order})
         .then((res)=>{if(res.data=='Order placed successfully'){toast.success('Order was Placed Successfully')}})
         .catch((err)=>{toast.error(err.message)})
     }
