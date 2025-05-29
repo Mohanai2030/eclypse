@@ -5,7 +5,7 @@ const fs = require('fs')
 const app = express()
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://eclypse1.vercel.app',
 };
 
 app.use(cors(corsOptions));
