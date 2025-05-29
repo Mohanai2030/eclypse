@@ -3,7 +3,7 @@ export default function Convince(){
         <div className="mb-[18%] border-white bord grid grid-cols-3 grid-rows-[66vh_56vh] gap-y-8 gap-x-8 w-full ">
             <div className="col-start-1 col-end-3 overflow-hidden rounded-3xl">
                 <video autoPlay loop muted>
-                    <source src="/public/convincing.mp4" type="video/mp4"/>
+                    <source src="/convincing.mp4" type="video/mp4"/>
                 </video>
             </div>
             <div className="overflow-hidden rounded-3xl relative">
