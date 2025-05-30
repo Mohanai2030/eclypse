@@ -4,22 +4,22 @@ export default function Review(){
             <div className="tracking-[3px] mb-20">OUR CUSTOMERS</div>
             <div className="w-full grid grid-cols-[8%_52%_20%_8%_12%] grid-rows-2">
                 
-                <div className="text-9xl">"</div>
+                <div className="text-4xl sm:text-9xl">"</div>
                 <div className="flex flex-col gap-20 justify-center">
-                    <p className="text-5xl ">Understated, but unforgettable. It feels like it was made for me</p>
+                    <p className="sm:text-5xl ">Understated, but unforgettable. It feels like it was made for me</p>
                 </div>
                 
-                <div className="row-start-2 col-start-2 self-center">
-                    <div className="text-xl">Random Woman</div>
+                <div className="row-start-2 col-start-2 self-center text-xs sm:text-xl">
+                    <div className="">Random Woman</div>
                     <p className="text-gray-500 not-italic">NY,USA</p>
                 </div>
 
-                <div className="col-start-4 flex justify-center items-center">
+                <div className="col-start-4 flex justify-center items-center ">
                     <img src="/reviewarrow.png" alt="" />
                 </div>
 
-                <div className="col-start-5 overflow-hidden rounded-full h-full aspect-square">
-                    <img src="/customer1.jpg" alt="" />
+                <div className="col-start-5 overflow-hidden rounded-full h-full aspect-square w-full">
+                    <img src="/customer1.jpg" alt="" className="w-[100]"/>
                 </div>
                 <div className="col-start-5 flex justify-center items-center">
                     <div className="overflow-hidden rounded-full h-[55%] aspect-square relative">

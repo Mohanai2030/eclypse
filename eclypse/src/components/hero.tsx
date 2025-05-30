@@ -7,18 +7,18 @@ export default function Hero(){
     return (
         <div className="mt-[10%] mb-[10%]">
             <div className="flex justify-between">
-                <img src="/Hero_header.png" alt="" />
+                <img src="/Hero_header.png" alt="" width="28%"/>
                 <div className=" self-end"><p>&copy;2025</p></div>
             </div>
-            <div className="mt-10 mb-[13%] overflow-hidden w-100 h-[500px] border-whit borde rounded-2xl relative">
+            <div className="mt-10 mb-[13%] overflow-hidden w-100 h-fit border-white border rounded-2xl relative sm:h-[70vh]">
                 <video autoPlay loop muted className="rounded-xl mt-[-15%]"> 
                     <source src="/hero.mp4" type="video/mp4"/>
                 </video>
-                <div className="absolute top-[87%] right-[1%] text-4xl ">
+                <div className="absolute top-[75%] sm:top-[87%] right-[1%] text-sm sm:text-4xl">
                     A silhoutte worth remembering
                 </div>
             </div>
-            <div className="text-5xl w-[74%] leading-[1.25] mb-20">
+            <div className="text-2xl sm:text-5xl w-[74%] leading-[1.25] mb-20">
                 <h1>
                     Rooted in a philosophy of quiet luxury, our garments are designed to speak softly in cut, in movement, in presence.
                 </h1>
@@ -29,7 +29,7 @@ export default function Hero(){
   onMouseLeave={() => setHover(false)}
 >
   <div
-    className={`text-3xl pb-1 duration-300 transition-all ${
+    className={`text-l pb-1 duration-300 transition-all ${
       hover ? "bg-white text-black translate-x-4 -mx-2 px-6" : "px-2"
     }`}
   >
